@@ -52,6 +52,12 @@ nav ul li{
     
 }
 
+nav ul li:hover{
+    background-color: white;
+    border-radius: 50px;
+}
+
+
 nav{
     display: flex;
 
