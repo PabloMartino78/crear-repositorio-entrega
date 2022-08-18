@@ -361,7 +361,7 @@ form fieldset{
 
 /* nombre de pagina index */
 .h1{
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 50px;
     margin-left: 200px;
 }
@@ -370,7 +370,7 @@ form fieldset{
 nav ul li{
     background-color: aqua;
     display: inline-block;
-    margin-left: 120px;
+    margin-left: 180px;
     margin-bottom: 50px;
     font-size: 25px;
     border: solid 2px black;
@@ -387,7 +387,7 @@ nav{
 /* boton de cotizar */
 .boton-cotizar{
     margin: 30px;
-    padding-left: 200px;
+    padding-left: 380px;
     font-size: 50px;
     border: solid black;
     font-family: fantasy;
