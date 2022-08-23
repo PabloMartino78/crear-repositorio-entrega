@@ -11,28 +11,30 @@
 <body>    
     <!-- encabezado -->
     <header>
-        <section>
-        <img class="logo" src="../imagenes/Logo de seguro empresa.png" alt="logo empresa">
+        <section class="logo-titulo">
+            <div>
+                <img class="logo" src="../imagenes/Logo de seguro empresa.png" alt="logo empresa">
+            </div>
         </section>
-        <!-- titulo - nombre de pagina -->
-        <div>
-            <h1 class="h1">Seguros Alvarez y Asociados S.R.L.</h1>
-        </div>
-
+            <!-- titulo - nombre de pagina -->
+            <div class="h1">
+                <h1>Seguros Alvarez y Asociados S.R.L.</h1>
+            </div>
+        
         <!--menu navegable  -->
         <nav>
             <ul>
-                <li>
+                <li class="sin">
                     <a href="../index.html">Inicio</a>
                 </li>
-                <li>
-                    <a href="../Paginas/nosotros.html">Nosotros</a>
+                <li class="nos">
+                    <a href="nosotros.html">Nosotros</a>
                 </li>
-                <li>
-                    <a href="../paginas/seguros.html">Seguros</a>
+                <li class="seg">
+                    <a href="seguros.html">Seguros</a>
                 </li>
-                <li>
-                    <a href="../Paginas/contacto.html">Contacto</a>
+                <li class="cont">
+                    <a href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -44,10 +46,11 @@
         <nav class="boton-cotizar">
             <a href="#cotizar-online">COTIZAR TU SEGURO ONLINE</a>
         </nav>
-    
+    </section>
+    <div class="form-siniestro">
         <form>
-            <fieldset id="">
-                Dejanos Tu Denuncia
+            <fieldset id="cotizar-online">
+            Cotizar Online Tu Seguro
             </fieldset>
             <div>
                 <label for="name">Apellido y Nombre</label>
@@ -74,33 +77,47 @@
                 </select>
             </div>
             <div>
-                <textarea name="" id="textarea" placeholder="Comenta tu Siniestro y Nos Contactaremos, Gracias " cols="50" rows="10"></textarea>
-            </div>
-            <div>
                 <input type="submit">
 
                 <input type="reset" value="Borrar">
             </div>
 
         </form>
+    </div>
 </main>
 <!-- inicio footer -->
 <footer>
     <h2>Nuestras Redes Sociales</h2>
 
-    <!-- pie de pagina, iconos de redes y contactos -->
-    <section>
-        <a href="https://www.instagram.com/"><img class="redes" src="../imagenes/instagram.png" alt="logo de instagram"></a>
-            <a href="https://web.whatsapp.com/"><img class="redes" src="../imagenes/whatsapp.png" alt="logo de whatsapp"></a>
-                <a href="https://es-la.facebook.com/"><img class="redes" src="../imagenes/facebook.png" alt="logo de facebok"></a>
-    </section>
-    
-    <!-- al costado del pie de pagina ubicacion -->
-    <aside>
-        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1269992968955!2d-58.53209648519528!3d-34.60094996485778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7c06c578cf3%3A0x18738b1350695d25!2sJuanchis!5e0!3m2!1ses!2sar!4v1657836518034!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </aside>
+        <!-- pie de pagina, iconos de redes y contactos -->
+        <section class="seccion-redes">
+            <div>
+                <a href="https://www.instagram.com/"><img class="redes-inst" src="../imagenes/instagram.png" alt="logo de instagram"></a>
+            </div>
+            <div>
+                <a href="https://web.whatsapp.com/"><img class="redes-wh" src="../imagenes/whatsapp.png" alt="logo de whatsapp"></a>
+            </div>
+            <div>
+                <a href="https://es-la.facebook.com/"><img class="redes-fb" src="../imagenes/facebook.png" alt="logo de facebok"></a>
+            </div>
+        </section>
+        
+        <!-- al costado del pie de pagina ubicacion -->
 
-</footer>
+        <div class="map-form">
+            <aside>
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1269992968955!2d-58.53209648519528!3d-34.60094996485778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7c06c578cf3%3A0x18738b1350695d25!2sJuanchis!5e0!3m2!1ses!2sar!4v1657836518034!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </aside>
+        <div class="derechos">
+            <h3>
+            Todos los derechos reservados
+            </h3>
+        </div>
+        
+
+    </footer>
+
+    <!-- fin footer -->
 
 <!-- fin footer -->
 
